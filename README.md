@@ -2,4 +2,4 @@
 ..
 
 <h1>Preview</h1>
-<img>https://github.com/Ritikpanta/Tic-Tac-Toe/blob/main/screen.gif?raw=true</img>
+<img src="https://github.com/Ritikpanta/Tic-Tac-Toe/blob/main/screen.gif?raw=true"></img>
