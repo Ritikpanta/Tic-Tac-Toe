@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Francois+One&family=Londrina+Solid&family=Oswald&family=Poppins:wght@600&family=Roboto:wght@500&family=Signika+Negative:wght@500&family=Silkscreen&family=Telex&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #16141c;
+}
+
+h1 {
+    display: grid;
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: #000000;
+    stroke-width: 10px;
+    -webkit-text-stroke-color: black;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+  
+  
+
+.container {
+
+    grid-template-columns: repeat(3, 1fr);
+    border: #000000;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.game-board {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #16141c;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 4px #16141c;
+
+}
+
+.cell {
+    width: 170px;
+    height: 150px;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f2f2f2;
+}
+
+.game-status {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(250, 250, 22);
+}
+
+.restart-button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.restart-button:hover {
+    background-color: #3E8E41;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 5px;
+    font-size: 20px;
+    right: 680px;
+    display: flex;
+}
+
+a{
+    padding: 5px;
+    color: white;
+}
+a:hover{
+    color: rgb(148, 27, 59);
+}
+
