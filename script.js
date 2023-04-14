@@ -88,9 +88,9 @@ function endGame(draw) {
             if (cell1.classList.contains(currentClass) && 
                 cell2.classList.contains(currentClass) && 
                 cell3.classList.contains(currentClass)) {
-                cell1.style.border = "4px solid gray";
-                cell2.style.border = "4px solid gray";
-                cell3.style.border = "4px solid gray";
+                cell1.style.border = "4px solid blue";
+                cell2.style.border = "4px solid blue";
+                cell3.style.border = "4px solid blue";
             }
         });
     }
